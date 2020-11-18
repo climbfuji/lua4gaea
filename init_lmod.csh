@@ -28,3 +28,6 @@ foreach module ($loaded_modules)
     module load $module
   endif
 end
+
+# Set environment variables
+setenv MODULESHOME /lustre/f2/pdata/esrl/gsd/contrib/lua-5.1.4.9/lmod/8.4
